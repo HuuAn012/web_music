@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/HuuAn012/web_music.git/precache-manifest.ed079471bfa44aa1982978252a06644b.js"
+  "/web_music/precache-manifest.29a0ce53f36fce052180d2c665b8ce42.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/HuuAn012/web_music.git/index.html", {
+workbox.routing.registerNavigationRoute("/web_music/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
